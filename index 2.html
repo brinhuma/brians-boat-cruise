@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brian's Boat Cruise</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: #f2f9ff;
+      color: #003049;
+    }
+    header {
+      position: relative;
+      background: url('https://i.postimg.cc/26ryy5fT/western-islands-lighthouse-1-copy.jpg') center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      padding: 0 20px;
+    }
+    header::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+    }
+    header div {
+      position: relative;
+      z-index: 2;
+    }
+    header h1 {
+      font-size: 3.5rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.5rem;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .cta {
+      display: inline-block;
+      padding: 15px 30px;
+      margin-top: 20px;
+      background: #0077b6;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: 600;
+    }
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background: #003049;
+      color: white;
+    }
+    .logo {
+      max-width: 300px;
+      margin: 40px auto;
+      display: block;
+    }
+    .event-images {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      margin-top: 50px;
+    }
+    .event-images img {
+      width: 45%;
+      max-width: 450px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Brian's Boat Cruise</h1>
+      <p>Saturday, August 2nd • 6:00 PM – 8:45 PM</p>
+      <p>Penetang Town Dock | 2 Main St, Penetanguishene</p>
+      <a class="cta" href="https://forms.gle/bg3kX8pyX1jVUXbR8" target="_blank">Click here to RSVP</a>
+      <br>
+      <img src="https://i.postimg.cc/rpQXGyrf/FSOGB-LOGO-TRANSPARENT.png" alt="For Sale on Georgian Bay Logo" class="logo" style="max-width:400px; margin-top:30px;">
+    </div>
+  </header>
+
+  <section>
+    <div style="background: white; padding: 40px 20px; text-align: center;">
+      <h2 style="color: #003049; margin-bottom: 30px;">Proud Sponsors</h2>
+      <div style="display: flex; justify-content: center; align-items: center; gap: 60px; flex-wrap: wrap; margin-bottom: 30px;">
+        <img src="https://i.postimg.cc/d0QNCDkG/THE-MORTGAGE-CENTRE.png" alt="The Mortgage Centre" style="max-width: 340px; background: white; padding: 15px; border-radius: 10px;">
+        <img src="https://i.postimg.cc/wvwpNSjj/0380-637774151098154629.jpg" alt="Sponsor Image" style="max-width: 340px; background: white; padding: 15px; border-radius: 10px;">
+      </div>
+      <div style="display: flex; justify-content: center; align-items: center; gap: 40px; flex-wrap: wrap;">
+        <img src="https://i.postimg.cc/g2WTYgGS/03-jp-bp-sign.png" alt="JP BP Sign" style="max-width: 220px; background: white; padding: 10px; border-radius: 8px;">
+        <img src="https://i.postimg.cc/vZyKdqZ3/FTD-Law-Logo-01.jpg" alt="FTD Law" style="max-width: 220px; background: white; padding: 10px; border-radius: 8px;">
+        <img src="https://i.postimg.cc/KvPT42x8/Patterson-Contracting-Logo.png" alt="Patterson Contracting" style="max-width: 220px; background: white; padding: 10px; border-radius: 8px;">
+        <img src="https://i.postimg.cc/fL9Krdsz/Discovery-CPA-logo.png" alt="Discovery CPA" style="max-width: 220px; background: white; padding: 10px; border-radius: 8px;">
+      </div>
+    </div>
+    <h2>You're Invited!</h2>
+    <p>Clients, local business owners, and friends – join us for a fun evening on the water as a thank you for your support! Enjoy:</p>
+    <ul>
+      <li>🎶 Live music</li>
+      <li>📸 Photo booth</li>
+      <li>🍹 One free drink</li>
+      <li>🎁 Giveaways: kitchen redesigns, local restaurant gift cards, Soul Set yoga passes</li>
+      <li>🏡 Waterfront real estate highlights onboard</li>
+    </ul>
+    <p><strong>Attire:</strong> Summer chic • <strong>Adults only</strong> • Boarding starts at 5:45 PM</p>
+    <p><strong>Capacity:</strong> 300 guests. +1s welcome. Contact Brian if you plan to bring more than one guest.</p>
+
+    <div class="event-images">
+      <img src="https://i.postimg.cc/d0HQsj4Q/Georgian-Legacy.png" alt="Cruise Boat">
+      <img src="https://i.postimg.cc/0QKv8RzZ/Cruise-Route-Map.png" alt="Cruise Route Map">
+    </div>
+  </section>
+
+  <footer>
+    <p>Hosted by Brian | For Sale on Georgian Bay</p>
+    <p>Contact: <a href="mailto:brian@forsaleongeorgianbay.ca" style="color:#90e0ef">brian@forsaleongeorgianbay.ca</a> | 📱 705-209-9500</p>
+    <a class="cta" href="https://forms.gle/bg3kX8pyX1jVUXbR8" target="_blank" style="display: block; text-align: center; margin: 30px auto; width: fit-content;">Click here to RSVP</a>
+  </footer>
+</body>
+</html>
